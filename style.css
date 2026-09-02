@@ -60,8 +60,9 @@ aside {
     padding: 20px;
 }
 
-main img {
-    width: 400px;
+main>img {
+    width: 400px !important;
+    max-width: 400px !important;
     height: auto;
     display: block;
     margin-bottom: 20px;
