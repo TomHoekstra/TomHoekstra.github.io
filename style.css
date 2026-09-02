@@ -59,3 +59,39 @@ aside {
     background-color: #ddd;
     padding: 20px;
 }
+
+main img {
+    width: 400px;
+    max-width: 100%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+th,
+td {
+    border: 1px solid #999;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+.not-completed {
+    background-color: #ddd;
+}
+
+.sufficient {
+    background-color: #b7e4c7;
+}
+
+.insufficient {
+    background-color: #f5b7b1;
+}
