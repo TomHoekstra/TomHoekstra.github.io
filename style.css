@@ -21,6 +21,7 @@ nav a {
     text-decoration: none;
     margin-right: 20px;
     padding: 15px;
+    transition: background-color 0.3s;
 }
 
 nav a:hover {
@@ -58,6 +59,7 @@ aside {
     flex: 1;
     background-color: #ddd;
     padding: 20px;
+    border-radius: 8px;
 }
 
 main>img {
@@ -97,4 +99,49 @@ th {
 
 .insufficient {
     background-color: #f5b7b1;
+}
+
+.progress-container {
+    position: relative;
+    width: 100%;
+    height: 25px;
+    background-color: #ccc;
+    border: 1px solid #999;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    width: 0%;
+    height: 100%;
+    background-color: #b7e4c7;
+}
+
+.study-advice-marker {
+    position: absolute;
+    left: 75%;
+    top: 0;
+    width: 3px;
+    height: 100%;
+    background-color: #333;
+}
+
+.status-legend {
+    list-style: none;
+    padding: 0;
+}
+
+.status-legend li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+.legend-box {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border: 1px solid #999;
+    vertical-align: middle;
 }
